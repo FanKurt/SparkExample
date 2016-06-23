@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/OSGi%Minimum-1.2"/>
+	<classpathentry kind="lib" path="libs/hbase-protocol-1.0.0-cdh5.5.1.jar"/>
+	<classpathentry kind="lib" path="libs/spark-assembly-1.5.0-hadoop2.6.0.jar"/>
+	<classpathentry kind="lib" path="libs/spark-examples-1.4.0-hadoop2.6.0.jar"/>
+	<classpathentry kind="lib" path="libs/spark-hbase-0.0.2-clabs.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
