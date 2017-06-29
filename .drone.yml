@@ -1,12 +1,13 @@
-pipeline:  
+pipeline:
   build:
-    image: golang:${GO_VERSION}
+    image: golang
     commands:
       - go get
       - go build
       - go test
 
-matrix:  
-  GO_VERSION:
-    - 1.7
-    - 1.6
+services:
+  postgres:
+    image: postgres:9.4.5
+    environment:
+      - POSTGRES_USER=myapp
