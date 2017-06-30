@@ -1,3 +1,4 @@
-image: python
-script:
- - echo "Build has been completed."
+clone:
+  depth: 50
+  recursive: true
+  path: github.com/drone/drone
