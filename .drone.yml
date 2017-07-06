@@ -1,4 +1,3 @@
 pipeline:
-  image: python 
-    script: 
-      - echo "Build has been completed."
+  build:
+    image: golang:1.6
